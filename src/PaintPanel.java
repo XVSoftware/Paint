@@ -26,6 +26,7 @@ public class PaintPanel extends JPanel
 		panels.add(new Panel(PaintFrame.width-300-50,260,300,200,20, Color.green));
 		panels.add(new Panel(PaintFrame.width-300-50,475,300,200,20, Color.blue, "Test"));
 		panels.add(new Panel(20,100,100,500,20, Color.LIGHT_GRAY, "Toolbar"));
+		panels.add(new Panel(200,200,300,300,30,Color.cyan,"Test panel"));
 		
 		Listener listen = new Listener();
 		addMouseMotionListener(listen);
